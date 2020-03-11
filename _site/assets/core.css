@@ -1,0 +1,113 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 4.8vmax;
+}
+
+.h2 {
+    font-size: 4vmax;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    z-index: 10;
+}
+
+#navbar-brand-img {
+    height: 92px;
+    width: 84px;
+}
+
+.item-block {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 60px;
+}
+
+.item-block-st {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* red */
+.ufl-bg-light-green {
+    background-color: #2FC3AD;
+    color: white;
+}
+
+.ufl-color-light-green {
+    color: #2FC3AD;
+}
+
+/* blue */
+.ufl-bg-light-blue {
+    background-color: #7690C5;
+    color: white;
+}
+
+/* blue */
+.ufl-color-light-blue {
+    color: #7690C5;
+}
+
+/* drop back */
+.ufl-bg-db {
+    background-color: #9B86BE;
+}
+
+.blob {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    #navbar-brand-img {
+        height: 62px;
+        width: 55px;
+    }
+    .item-block {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .item-block-st {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+.col-md-2dot4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
