@@ -23,16 +23,6 @@ body {
     padding: 0;
 }
 
-.navbar {
-    background-color: white;
-    z-index: 10;
-}
-
-#navbar-brand-img {
-    height: 92px;
-    width: 84px;
-}
-
 .item-block {
     padding-left: 75px;
     padding-right: 75px;
@@ -50,6 +40,32 @@ body {
     max-height: 100%;
 }
 
+
+/* navbar stuff */
+.navbar {
+    background-color: white;
+    z-index: 10;
+}
+
+#navbar-brand-img {
+    height: 92px;
+    width: 84px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #2FC3AD;
+}
+
+.navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+
+/* colors to choose from, along with what they used to be in MFS */
 /* red */
 .ufl-bg-light-green {
     background-color: #2FC3AD;
