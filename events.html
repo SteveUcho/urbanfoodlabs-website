@@ -13,7 +13,7 @@ stylesheet: "/assets/events.css"
     {% for event in site.categories.events %}
         <div class="row my-4">
             <div class="col-md-4">
-                <img class="volunteer-image-full-color" src="{{ event.thumbnail }}">
+                <img class="volunteer-image-full-color" src="{{ event.baseurl }}{{ event.thumbnail }}">
             </div>
             <div class="col-md-6">
                 <a class="event-title h2 ufl-color-light-blue" href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a>
