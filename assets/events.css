@@ -1,0 +1,13 @@
+.event-title:hover {
+    color: #7690C5;
+}
+
+.event-datetime {
+    color: gray;
+}
+
+.event-divider {
+    height: 1px;
+    background-color:lightgray;
+    margin: 0
+}
