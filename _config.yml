@@ -16,7 +16,7 @@
 title: Urban Food Lab
 email: gowayed@nyu.edu
 description: We are a student-run entity at NYU Tandon School of Engineering focusing on sustainable food growth through aquaponics and vertical farming
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: urbanfoodlab
 github_username:  steveucho
