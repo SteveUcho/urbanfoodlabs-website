@@ -10,13 +10,13 @@ stylesheet: "/assets/events.css"
     <hr style="height: 2px; background-color:black; margin: 0">
 </div>
 <div class="item-block-st mb-4">
-    {% for event in site.categories.event %}
+    {% for event in site.categories.events %}
         <div class="row my-4">
             <div class="col-md-4">
                 <img class="volunteer-image-full-color" src="{{ event.thumbnail }}">
             </div>
             <div class="col-md-6">
-                <a class="event-title h2 ufl-color-light-blue" href="{{ event.permalink }}">{{ event.title }}</a>
+                <a class="event-title h2 ufl-color-light-blue" href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a>
                 <p class="event-datetime h4">{{ event.date }}</p>
                 <p class="event-desc h4">{{ event.desc }}</p>
             </div>

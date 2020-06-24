@@ -25,6 +25,7 @@ github_username:  steveucho
 # paginate_path: "/blog/page:num/"
 
 # Build settings
+permalink: pretty
 markdown: kramdown
 theme: minima
 plugins:
